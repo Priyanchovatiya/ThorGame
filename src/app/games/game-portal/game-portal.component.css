@@ -1,0 +1,18 @@
+/* .container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px 0px;
+  } */
+
+   
+ .game-frame-container {
+    
+    width: 100%;
+    
+  }
+
+  .main{
+    margin: 0px;
+    padding: 0px;
+    background-color: #090C1B;
+  }

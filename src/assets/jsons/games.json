@@ -1,0 +1,401 @@
+[
+  {
+    "id": 1,
+    "Game_Name": "animal-word",
+    "path": "animal-word",
+    "image": "assets/games/game2/icons/icon-256.png",
+    "description": "Animal-Word is an educational game that helps children learn the names of different animals through engaging visuals and interactive gameplay.",
+    "tags": ["Educational", "Animals", "Kids"]
+  },
+  {
+    "id": 2,
+    "Game_Name": "angry-potato",
+    "path": "angry-potato",
+    "image": "assets/games/game1/logo1.png",
+    "description": "Angry-Potato is a fun and quirky game where players control an angry potato navigating through various obstacles to reach the finish line.",
+    "tags": ["Adventure", "Humor", "Obstacles"]
+  },
+  {
+    "id": 3,
+    "Game_Name": "coloring-book",
+    "path": "coloring-book",
+    "image": "assets/games/game3/logo.png",
+    "description": "Coloring-Book is a creative game designed for kids to express their artistic side by coloring various pictures and creating their own masterpieces.",
+    "tags": ["Creative", "Kids", "Art"]
+  },
+  {
+    "id": 4,
+    "Game_Name": "crazy-math",
+    "path": "crazy-math",
+    "image": "assets/games/game4/logo.png",
+    "description": "Crazy-Math is an innovative educational game that transforms learning math into an enjoyable adventure. With captivating puzzles and dynamic gameplay, it caters to various skill levels, from basic arithmetic to complex problem-solving. This interactive experience is perfect for students of all ages, making math practice both fun and effective. Parents will love how Crazy-Math keeps young minds sharp and eager to learn more, ensuring that mastering math has never been so exciting!",
+    "tags": ["Educational", "Math", "Puzzles"]
+  },
+  {
+    "id": 5,
+    "Game_Name": "crazy-parking",
+    "path": "crazy-parking",
+    "image": "assets/games/game5/logo.png",
+    "description": "Crazy-Parking is a challenging game where players test their parking skills in various difficult scenarios and tight spots.",
+    "tags": ["Challenge", "Skills", "Parking"]
+  },
+  {
+    "id": 6,
+    "Game_Name": "electrio",
+    "path": "electrio",
+    "image": "assets/games/game6/logo1.png",
+    "description": "Electrio is a puzzle game that involves connecting electrical circuits to light up the board and solve complex challenges.",
+    "tags": ["Puzzle", "Strategy", "Electronics"]
+  },
+  {
+    "id": 7,
+    "Game_Name": "Classic-bowling",
+    "path": "Classic-bowling",
+    "image": "assets/games/game7/logo.png",
+    "description": "Classic-Bowling brings the classic game of bowling to your screen with realistic graphics and smooth gameplay.",
+    "tags": ["Sports", "Bowling", "Classic"]
+  },
+  {
+    "id": 8,
+    "Game_Name": "fishing-frenzy",
+    "path": "fishing-frenzy",
+    "image": "assets/games/game8/icon-256.png",
+    "description": "Fishing-Frenzy is an exciting game where players compete to catch as many fish as possible within a limited time.",
+    "tags": ["Fishing", "Arcade", "Competition"]
+  },
+  {
+    "id": 9,
+    "Game_Name": "flip-card",
+    "path": "flip-card",
+    "image": "assets/games/game9/logo.png",
+    "description": "Flip-Card is a memory game that challenges players to match pairs of cards within a limited number of moves.",
+    "tags": ["Memory", "Puzzle", "Cards"]
+  },
+  {
+    "id": 10,
+    "Game_Name": "hold-card",
+    "path": "hold-card",
+    "image": "assets/games/game10/icon-256.png",
+    "description": "Hold-Card is a strategic card game that requires players to hold and play their cards wisely to win.",
+    "tags": ["Strategy", "Cards", "Game"]
+  },
+  {
+    "id": 11,
+    "Game_Name": "Little-dino",
+    "path": "Little-dino",
+    "image": "assets/games/game11/icons/icon-256.png",
+    "description": "Little-Dino is an adventure game that takes players on a journey with a cute dinosaur exploring various prehistoric environments.",
+    "tags": ["Adventure", "Kids", "Dinosaur"]
+  },
+  {
+    "id": 12,
+    "Game_Name": "math",
+    "path": "math",
+    "image": "assets/games/game12/icon-512.png",
+    "description": "Math is an educational game focused on improving math skills through fun and interactive exercises.",
+    "tags": ["Educational", "Math", "Skills"]
+  },
+  {
+    "id": 13,
+    "Game_Name": "ninja-run",
+    "path": "ninja-run",
+    "image": "assets/games/game13/icon-256.png",
+    "description": "Math is an educational game focused on improving math skills through fun and interactive exercises.",
+    "tags": ["Educational", "Math", "Skills"]
+  },
+  {
+    "id": 14,
+    "Game_Name": "pac-circle",
+    "path": "pac-circle",
+    "image": "assets/games/game14/icon-256.png",
+    "description": "Pac-Circle is a modern twist on the classic Pac-Man game, featuring circular mazes and exciting gameplay.",
+    "tags": ["Arcade", "Classic", "Pac-Man"]
+  },
+  {
+    "id": 15,
+    "Game_Name": "football",
+    "path": "football",
+    "image": "assets/games/game15/logo15.png",
+    "description": "Football is a sports game that simulates the excitement and strategy of a real football match.",
+    "tags": ["Sports", "Football", "Simulation"]
+  },
+  {
+    "id": 16,
+    "Game_Name": "fruit-cut",
+    "path": "fruit-cut",
+    "image": "assets/games/game16/logo16.png",
+    "description": "Fruit-Cut is an arcade game where players slice through various fruits as they fly across the screen, aiming for high scores.",
+    "tags": ["Arcade", "Fruit", "Slicing"]
+  },
+  {
+    "id": 17,
+    "Game_Name": "the-sorcreate",
+    "path": "the-sorcreate",
+    "image": "assets/games/game17/bg_menu.png",
+    "description": "The-Sorcreate is a magical puzzle game where players solve mysteries and cast spells to progress through enchanting levels.",
+    "tags": ["Puzzle", "Magic", "Mystery"]
+  },
+  {
+    "id": 18,
+    "Game_Name": "sheepop",
+    "path": "sheepop",
+    "image": "assets/games/game18/logo18.png",
+    "description": "Sheepop is a fun and casual game where players help a sheep jump from platform to platform without falling.",
+    "tags": ["Casual", "Jumping", "Sheep"]
+  },
+  {
+    "id": 19,
+    "Game_Name": "Treasure",
+    "path": "Treasure",
+    "image": "assets/games/game19/logo20.png",
+    "description": "Treasure is an adventure game that takes players on a quest to find hidden treasures across various levels.",
+    "tags": ["Adventure", "Treasure", "Quest"]
+  },
+  {
+    "id": 20,
+    "Game_Name": "run-into-deth",
+    "path": "run-into-deth",
+    "image": "assets/games/game20/icon-256.png",
+    "description": "Run-Into-Deth is an intense action game where players must run and avoid deadly traps to survive.",
+    "tags": ["Action", "Survival", "Intense"]
+  },
+  {
+    "id": 21,
+    "Game_Name": "puzzle",
+    "path": "puzzle",
+    "image": "assets/games/game21/logo21.png",
+    "description": "Puzzle is a game where you solve various challenges that test your problem-solving skills. It features different levels with increasing difficulty. Enjoy hours of engaging gameplay as you unlock new puzzles. Perfect for all ages. Sharpen your mind and have fun!",
+    "tags": ["Puzzle", "Brain Teaser", "Logic", "Problem Solving", "Mental Exercise"]
+  },
+  {
+    "id": 22,
+    "Game_Name": "card",
+    "path": "card",
+    "image": "assets/games/game22/logo.png",
+    "description": "Card is a classic game that involves strategy and luck. Play against opponents and use your skills to win. Multiple variations of card games are available. Perfect for casual gaming sessions. Enjoy the timeless fun of card games!",
+    "tags": ["Card", "Strategy", "Luck", "Classic", "Multiplayer"]
+  },
+  {
+    "id": 23,
+    "Game_Name": "soldier-way",
+    "path": "soldier-way",
+    "image": "assets/games/game23/icon-256.png",
+    "description": "Soldier Way is an action-packed game where you lead your soldier through challenging missions. Use your combat skills to defeat enemies and complete objectives. Immerse yourself in intense gameplay. Ideal for fans of action and strategy games.",
+    "tags": ["Action", "Strategy", "Combat", "Missions", "Soldier"]
+  },
+  {
+    "id": 24,
+    "Game_Name": "aliean-way",
+    "path": "aliean-way",
+    "image": "assets/games/game24/icon-256.png",
+    "description": "Alien Way is an exciting adventure where you explore alien worlds. Solve puzzles, battle alien creatures, and uncover secrets. Enjoy stunning graphics and captivating gameplay. A perfect game for those who love exploration and sci-fi themes.",
+    "tags": ["Adventure", "Exploration", "Sci-Fi", "Puzzle", "Aliens"]
+  },
+  {
+    "id": 25,
+    "Game_Name": "arnie-attack",
+    "path": "arnie-attack",
+    "image": "assets/games/game25/icon-256.png",
+    "description": "Arnie Attack is a thrilling shooter game where you play as Arnie, battling enemies across various levels. Use different weapons and tactics to overcome obstacles. Fast-paced and action-packed, this game will keep you on the edge of your seat.",
+    "tags": ["Shooter", "Action", "Weapons", "Enemies", "Thrilling"]
+  },
+  {
+    "id": 26,
+    "Game_Name": "grave-drive",
+    "path": "grave-drive",
+    "image": "assets/games/game26/icon-256.png",
+    "description": "Grave Drive is a horror-themed driving game where you navigate through eerie landscapes. Avoid obstacles and reach your destination while battling supernatural forces. Perfect for fans of spooky and adrenaline-pumping experiences.",
+    "tags": ["Horror", "Driving", "Supernatural", "Spooky", "Adrenaline"]
+  },
+  {
+    "id": 27,
+    "Game_Name": "green-chick",
+    "path": "green-chic",
+    "image": "assets/games/game27/icon-256.png",
+    "description": "Green Chick is a fun and colorful platformer game where you control a green chick on a quest to save its friends. Jump, run, and dodge obstacles across vibrant levels. Suitable for players of all ages who enjoy lively adventures.",
+    "tags": ["Platformer", "Adventure", "Colorful", "Jumping", "Family-friendly"]
+  },
+  {
+    "id": 28,
+    "Game_Name": "koby-jump-escape",
+    "path": "koby-jump-escape",
+    "image": "assets/games/game28/icon-256.png",
+    "description": "Koby Jump Escape is an exhilarating platformer where you help Koby escape from perilous traps. Perform high jumps and swift maneuvers to overcome challenges. The game offers fast-paced action and requires quick reflexes.",
+    "tags": ["Platformer", "Action", "Jumping", "Escape", "Quick Reflexes"]
+  },
+  {
+    "id": 29,
+    "Game_Name": "moto-beach-ride",
+    "path": "moto-beach-ride",
+    "image": "assets/games/game29/icon-256.png",
+    "description": "Moto Beach Ride is a thrilling racing game set on scenic beach tracks. Race against time and other players, performing stunts and collecting power-ups. Perfect for those who enjoy high-speed motorcycle racing.",
+    "tags": ["Racing", "Motorcycle", "Stunts", "Beach", "High-Speed"]
+  },
+  {
+    "id": 30,
+    "Game_Name": "night-dress",
+    "path": "night-dress",
+    "image": "assets/games/game30/icon-256.png",
+    "description": "Night Dress is a stylish dress-up game where you can create beautiful outfits for night events. Mix and match clothes, accessories, and hairstyles to design the perfect look. Ideal for fashion enthusiasts and creative minds.",
+    "tags": ["Dress-Up", "Fashion", "Styling", "Creativity", "Night Events"]
+  },
+  {
+    "id": 31,
+    "Game_Name": "super-8-race",
+    "path": "super-8-race",
+    "image": "assets/games/game31/logo33.png",
+    "description": "Super 8 Race is a high-octane racing game with unique tracks and fast cars. Compete in intense races, upgrade your vehicle, and aim for the top spot. Enjoy the thrill of speed and the excitement of racing.",
+    "tags": ["Racing", "Cars", "Speed", "Competition", "Upgrades"]
+  },
+  {
+    "id": 32,
+    "Game_Name": "zombbie",
+    "path": "zombbie",
+    "image": "assets/games/game32/icon-256.png",
+    "description": "Zombie is an action game where you fight against hordes of zombies. Use various weapons and strategies to survive waves of undead. The game offers intense gameplay and a thrilling zombie apocalypse experience.",
+    "tags": ["Zombie", "Action", "Survival", "Weapons", "Thriller"]
+  },
+  {
+    "id": 33,
+    "Game_Name": "color-ball",
+    "path": "color-ball",
+    "image": "assets/games/game33/logo31.png",
+    "description": "Color Ball is a fun puzzle game where you match balls of the same color. Solve different levels with increasing difficulty and use power-ups to help you. Perfect for casual play and fans of color-matching games.",
+    "tags": ["Puzzle", "Color Matching", "Casual", "Levels", "Power-Ups"]
+  },
+  {
+    "id": 34,
+    "Game_Name": "alienconnect",
+    "path": "alienconnect",
+    "image": "assets/games/game34/logo34.png",
+    "description": "Alien Connect is a unique puzzle game where you connect alien creatures to form chains. Strategize your moves to complete each level with the highest score. Enjoy the captivating gameplay and intriguing alien theme.",
+    "tags": ["Puzzle", "Strategy", "Aliens", "Connecting", "Levels"]
+  },
+  {
+    "id": 35,
+    "Game_Name": "melody",
+    "path": "melody",
+    "image": "assets/games/game35/icons/icon-256.png",
+    "description": "Melody is a music-based game where you follow the rhythm and create melodies. Tap on the notes in sync with the music to score points. Perfect for music lovers and rhythm game enthusiasts.",
+    "tags": ["Music", "Rhythm", "Melody", "Tapping", "Scores"]
+  },
+  {
+    "id": 36,
+    "Game_Name": "9-patch puzzle",
+    "path": "9-patch puzzle",
+    "image": "assets/games/game36/icons/icon-256.png",
+   "description": "9-Patch Puzzle is a challenging puzzle game where you arrange pieces to complete pictures. Solve various puzzles with increasing complexity. Ideal for puzzle enthusiasts who enjoy a good challenge.",
+    "tags": ["Puzzle", "Picture", "Pieces", "Challenge", "Complexity"]
+  },
+  {
+    "id": 37,
+    "Game_Name": "heartscape",
+    "path": "heartscape",
+    "image": "assets/games/game37/icons/icon-256.png",
+    "description": "Heartscape is a calming puzzle game that takes you on a journey through beautiful landscapes. Solve intricate puzzles by connecting hearts. Enjoy the relaxing music and serene visuals. Perfect for unwinding and de-stressing after a long day. A game for all ages to enjoy and relax.",
+    "tags": ["puzzle", "calm", "relaxing", "beautiful landscapes", "all ages"]
+  },
+  {
+    "id": 38,
+    "Game_Name": "mr.machagi",
+    "path": "mr.machagi",
+    "image": "assets/games/game38/icons/icon-256.png",
+    "description": "Mr. Machagi is an action-packed game where you control a skilled martial artist. Fight through waves of enemies and master your skills. Enjoy the dynamic combat and thrilling challenges. Perfect for action game enthusiasts. Can you defeat all the enemies and become the ultimate fighter?",
+    "tags": ["action", "combat", "martial arts", "thrilling", "skill-based"]
+  },
+  {
+    "id": 39,
+    "Game_Name": "DOW",
+    "path": "DOW",
+    "image": "assets/games/game39/icons/icon-256.png",
+    "description": "DOW is a strategic warfare game where you command armies in epic battles. Plan your moves carefully and outsmart your opponents. Experience the thrill of commanding troops and conquering territories. Ideal for strategy game lovers. Lead your army to victory and dominate the battlefield.",
+    "tags": ["strategy", "warfare", "battles", "command", "victory"]
+  },
+  {
+    "id": 40,
+    "Game_Name": "animalmerge",
+    "path": "animalmerge",
+    "image": "assets/games/game40/logo40.png",
+    "description": "Kids Game is a delightful collection of mini-games designed for young children. Each game is easy to play and educational, helping kids learn while having fun. With colorful graphics and simple controls, it's perfect for preschoolers and young kids. Keep your little ones entertained and engaged.",
+    "tags": ["kids", "educational", "mini-games", "fun", "colorful"]
+  },
+  {
+    "id": 41,
+    "Game_Name": "Kids Game",
+    "path": "Kids-Game",
+    "image": "assets/games/game41/icons/icon-256.png",
+    "description": "Kids Game is a delightful collection of mini-games designed for young children. Each game is easy to play and educational, helping kids learn while having fun. With colorful graphics and simple controls, it's perfect for preschoolers and young kids. Keep your little ones entertained and engaged.",
+    "tags": ["kids", "educational", "mini-games", "fun", "colorful"]
+  },
+  {
+    "id": 42,
+    "Game_Name": "shooter Zombiee",
+    "path": "shooter-Zombiee",
+    "image": "assets/games/game42/logo42.png",
+    "description": "Shooter Zombiee is an intense zombie shooting game. Defend yourself against hordes of zombies and survive as long as you can. Use a variety of weapons and upgrade your arsenal. Perfect for fans of shooting games and zombie apocalypses. Can you survive the zombie onslaught?",
+    "tags": ["shooter", "zombies", "intense", "survival", "weapons"]
+  },
+  {
+    "id": 43,
+    "Game_Name": "slot toons",
+    "path": "slot-toons",
+    "image": "assets/games/game43/icons/icon-256.png",
+    "description": "Slot Toons is a fun and exciting slot machine game with a cartoon twist. Spin the reels and try your luck to win big. With colorful graphics and engaging gameplay, it's perfect for casual players. Enjoy the thrill of the slots without any real-world risk.",
+    "tags": ["slot machine", "cartoon", "fun", "casual", "engaging"]
+  },
+  {
+    "id": 44,
+    "Game_Name": "watermelon",
+    "path": "watermelon",
+    "image": "assets/games/game44/logo44.png",
+    "description": "Watermelon is a delightful puzzle game where you slice and dice watermelons in various ways. Enjoy the refreshing visuals and satisfying gameplay. Perfect for a quick and fun gaming session. Test your slicing skills and see how many watermelons you can cut.",
+    "tags": ["puzzle", "slicing", "fun", "quick", "refreshing"]
+  },
+  {
+    "id": 45,
+    "Game_Name": "terits",
+    "path": "terits",
+    "image": "assets/games/game45/logo45.png",
+    "description": "Terits is a classic block puzzle game where you arrange falling blocks to clear lines. Enjoy the timeless gameplay and addictive challenges. Perfect for fans of classic puzzle games. See how long you can keep the board clear and beat your high score.",
+    "tags": ["classic", "block puzzle", "addictive", "timeless", "high score"]
+  },
+  {
+    "id": 46,
+    "Game_Name": "ramses-Treasure",
+    "path": "ramses-Treasure",
+    "image": "assets/games/game46/logo46.png",
+    "description": "Ramses' Treasure is an adventurous puzzle game set in ancient Egypt. Solve challenging puzzles and uncover hidden treasures. Enjoy the rich visuals and intriguing storyline. Perfect for puzzle enthusiasts and history buffs. Embark on an epic quest for Ramses' treasures.",
+    "tags": ["puzzle", "adventure", "ancient Egypt", "treasure", "history"]
+  },
+  {
+    "id": 47,
+    "Game_Name": "jelly-break",
+    "path": "jelly-break",
+    "image": "assets/games/game47/logo47.png", "description": "Jelly Break is a colorful and fun arcade game where you break jellies to score points. Enjoy the vibrant visuals and addictive gameplay. Perfect for a quick gaming session. See how many jellies you can break and aim for the high score.",
+    "tags": ["arcade", "colorful", "fun", "quick", "high score"]
+
+  },
+  {
+    "id": 48,
+    "Game_Name": "Bingo",
+    "path": "Bingo",
+    "image": "assets/games/game48/logo48.png",
+    "description": "Bingo is a classic game of chance where you match numbers on your card with those called out. Enjoy the excitement of shouting 'Bingo!' when you win. Perfect for casual play and social gaming. Gather your friends and family for a fun Bingo night.",
+    "tags": ["classic", "chance", "social", "casual", "fun"]
+  },
+  {
+    "id": 49,
+    "Game_Name": "flight-slim",
+    "path": "flight-slim",
+    "image": "assets/games/game49/stage7.png",
+    "description": "Flight Slim is an exciting flight simulation game where you pilot a slim, agile aircraft. Navigate through challenging courses and avoid obstacles. Enjoy the realistic graphics and thrilling gameplay. Perfect for aviation enthusiasts and gamers looking for a challenge.",
+    "tags": ["flight simulation", "agile", "challenging", "realistic", "aviation"]
+  },
+  {
+    "id": 50,
+    "Game_Name": "Aline-invision",
+    "path": "Aline-invision",
+    "image": "assets/games/game50/logo50.png",
+    "description": "Aline Invision is a captivating sci-fi puzzle game where you solve complex puzzles to progress. Enjoy the futuristic visuals and intriguing storyline. Perfect for fans of sci-fi and challenging puzzles. Test your intellect and see if you can uncover the secrets of Aline Invision.",
+    "tags": ["sci-fi", "puzzle", "futuristic", "challenging", "intriguing"]
+  }]

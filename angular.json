@@ -21,13 +21,18 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              "src/favicon.ico",
+              "src/logo128.png",
+              "src/logo1281.png",
+              "src/logo48.png",
+              "src/icon16.png",
+              "src/icon64.png",
               "src/assets"
             ],
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "baseHref": "/"
           },
           "configurations": {
             "production": {
@@ -81,7 +86,8 @@
             "tsConfig": "tsconfig.spec.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/web.config"
             ],
             "styles": [
               "src/styles.css"

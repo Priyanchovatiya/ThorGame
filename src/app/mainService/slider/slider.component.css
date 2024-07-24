@@ -1,0 +1,4 @@
+.activebutton {
+    background-color: rgba(250,77,9,0.7); /* Change to your desired active state color */
+    color: white;
+  }

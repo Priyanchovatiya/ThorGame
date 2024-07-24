@@ -1,0 +1,42 @@
+.main{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.emoji{
+    margin-top: 50px;
+    font-size: 100px;
+}
+
+.m-text{
+    color: #152B54;
+    font-weight: bold;
+    padding-bottom: 12px;
+    font-family: 'Signika';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.m-text2{
+    color: rgba(0,0,0,0.4);
+    font-weight: 600;
+    padding-bottom: 8px;
+    font-family: 'Signika';
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.button{
+
+    padding: 10px 25px;
+    background-color: #152B54;
+    border-radius: 6px;
+   color: white;
+   margin-top: 30px;
+    font-family: 'Signika';
+      font-weight: 700;
+   
+  }

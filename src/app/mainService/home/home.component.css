@@ -1,0 +1,14 @@
+.main{
+    background-color: #27264E;
+   
+    width: 100%;
+    display: inline-block;
+    padding: 24px;
+    justify-content: center;
+    align-items: center; 
+    background-image: url("https://i.pinimg.com/564x/87/84/df/8784dfbe19cf881dcbf6c9834519c365.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.8; */
+    background-attachment: fixed;
+}
