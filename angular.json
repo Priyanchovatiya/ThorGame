@@ -28,7 +28,8 @@
               "src/icon64.png",
               "src/assets",
               "src/12.html",
-              "src/ads.txt"
+              "src/ads.txt",
+              "src/games"
             ],
             "styles": [
               "src/styles.css"
