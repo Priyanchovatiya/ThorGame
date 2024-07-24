@@ -20,7 +20,7 @@ export class CardsComponent implements OnInit {
   ngOnInit(): void {
   
     this.dataService.getData().subscribe((response) => {
-      console.log(response);
+      // console.log(response);
       
       this.data = response.reverse();
     });

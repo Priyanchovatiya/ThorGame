@@ -26,7 +26,9 @@
               "src/logo48.png",
               "src/icon16.png",
               "src/icon64.png",
-              "src/assets"
+              "src/assets",
+              "src/12.html",
+              "src/ads.txt"
             ],
             "styles": [
               "src/styles.css"
