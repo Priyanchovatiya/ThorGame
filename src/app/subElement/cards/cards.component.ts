@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CardsService } from '../../services/cards.service';
 import { CommonModule } from '@angular/common';
 import { Router, RouterLink, RouterLinkActive } from '@angular/router';
+import { IdService } from '../../services/id.service';
 
 @Component({
   selector: 'app-cards',
@@ -15,7 +16,7 @@ export class CardsComponent implements OnInit {
   public data: any[] = []; 
  
 
-  constructor(private dataService: CardsService, private router: Router){}
+  constructor(private dataService: CardsService, private router: Router, private idService: IdService){}
 
   ngOnInit(): void {
   
@@ -26,5 +27,9 @@ export class CardsComponent implements OnInit {
     });
   }
 
+  onGameClick(id: number): void {
+    this.idService.setId(id);
+    this.router.navigate(['/Game-Page']);
+  }
 
 }

@@ -4,7 +4,8 @@
                 <article class=" card" style="background-image: url('{{item.image}}'); background-repeat: no-repeat; background-size: cover;">
                     <div class="subclass">
         
-                    <a routerLink="/Game-Page" [queryParams]="{ id: item.id }"
+                    <a  (click)="onGameClick(item.id)"
+                   
                     routerLinkActive="activebutton" [routerLinkActiveOptions]="{exact: true}" ariaCurrentWhenActive="page">
                     <img class="h-auto max-w-full rounded-lg c-img" src="{{item.image}}" alt="">
                     <div class="card__info">
