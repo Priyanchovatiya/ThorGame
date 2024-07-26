@@ -79,7 +79,12 @@ export class GamePageComponent implements OnInit {
   }
 
   updatePage() {
-    this.pageDisplay = true;
+    // this.pageDisplay = true;
+       // Construct the URL using the gameId
+       const url = `games/game${this.gameId}/index.html`;
+
+       // Redirect to the constructed URL
+       window.location.href = url;
   }
   // getDataById(id: string): void {
   //   this.dataService.getDataById(id).subscribe(data => {
@@ -101,5 +106,3 @@ export class GamePageComponent implements OnInit {
   }
 
 }
-
-
