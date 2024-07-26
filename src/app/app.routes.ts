@@ -16,7 +16,7 @@ export const routes: Routes = [
     // Main Page Routes
     {'path': 'home',title: 'Home',loadComponent: () => import('./mainService/home/home.component').then(c => c.HomeComponent)},
     {'path': 'AboutUs',title: 'About Us',component: AvoutComponent},
-    {'path': 'privacy-policy',title: 'privacy-policy',component: PpComponent},
+    {'path': 'privacy-policy',title: 'Privacy-Policy',component: PpComponent},
     {'path': 'contact',title: 'contact',component: ContactComponent},
     {'path': 'terms-of-use',title: 'terms-of-use',component: TouComponent},
     {'path': 'affiliate',title: 'affiliate',component: AffilateComponent},

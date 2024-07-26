@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "Game_Name": "animal-word",
+    "Game_Name": "Animal Word",
     "path": "animal-word",
     "image": "games/game2/icons/icon-256.png",
     "description": "Animal-Word is an educational game that helps children learn the names of different animals through engaging visuals and interactive gameplay.",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "Game_Name": "angry-potato",
+    "Game_Name": "Angry Potato",
     "path": "angry-potato",
     "image": "games/game1/logo1.png",
     "description": "Angry-Potato is a fun and quirky game where players control an angry potato navigating through various obstacles to reach the finish line.",
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "Game_Name": "coloring-book",
+    "Game_Name": "Coloring Book",
     "path": "coloring-book",
     "image": "games/game3/logo.png",
     "description": "Coloring-Book is a creative game designed for kids to express their artistic side by coloring various pictures and creating their own masterpieces.",
@@ -25,7 +25,7 @@
   },
   {
     "id": 4,
-    "Game_Name": "crazy-math",
+    "Game_Name": "Crazy Math",
     "path": "crazy-math",
     "image": "games/game4/logo.png",
     "description": "Crazy-Math is an innovative educational game that transforms learning math into an enjoyable adventure. With captivating puzzles and dynamic gameplay, it caters to various skill levels, from basic arithmetic to complex problem-solving. This interactive experience is perfect for students of all ages, making math practice both fun and effective. Parents will love how Crazy-Math keeps young minds sharp and eager to learn more, ensuring that mastering math has never been so exciting!",
@@ -33,7 +33,7 @@
   },
   {
     "id": 5,
-    "Game_Name": "crazy-parking",
+    "Game_Name": "Crazy Parking",
     "path": "crazy-parking",
     "image": "games/game5/logo.png",
     "description": "Crazy-Parking is a challenging game where players test their parking skills in various difficult scenarios and tight spots.",
@@ -41,7 +41,7 @@
   },
   {
     "id": 6,
-    "Game_Name": "electrio",
+    "Game_Name": "Electrio",
     "path": "electrio",
     "image": "games/game6/logo1.png",
     "description": "Electrio is a puzzle game that involves connecting electrical circuits to light up the board and solve complex challenges.",
@@ -49,7 +49,7 @@
   },
   {
     "id": 7,
-    "Game_Name": "Classic-bowling",
+    "Game_Name": "Classic Bowling",
     "path": "Classic-bowling",
     "image": "games/game7/logo.png",
     "description": "Classic-Bowling brings the classic game of bowling to your screen with realistic graphics and smooth gameplay.",
@@ -57,7 +57,7 @@
   },
   {
     "id": 8,
-    "Game_Name": "fishing-frenzy",
+    "Game_Name": "Fishing Frenzy",
     "path": "fishing-frenzy",
     "image": "games/game8/icon-256.png",
     "description": "Fishing-Frenzy is an exciting game where players compete to catch as many fish as possible within a limited time.",
@@ -65,7 +65,7 @@
   },
   {
     "id": 9,
-    "Game_Name": "flip-card",
+    "Game_Name": "Flip Card",
     "path": "flip-card",
     "image": "games/game9/logo.png",
     "description": "Flip-Card is a memory game that challenges players to match pairs of cards within a limited number of moves.",
@@ -73,7 +73,7 @@
   },
   {
     "id": 10,
-    "Game_Name": "hold-card",
+    "Game_Name": "Hold Card",
     "path": "hold-card",
     "image": "games/game10/icon-256.png",
     "description": "Hold-Card is a strategic card game that requires players to hold and play their cards wisely to win.",
@@ -81,7 +81,7 @@
   },
   {
     "id": 11,
-    "Game_Name": "Little-dino",
+    "Game_Name": "Little Dino",
     "path": "Little-dino",
     "image": "games/game11/icons/icon-256.png",
     "description": "Little-Dino is an adventure game that takes players on a journey with a cute dinosaur exploring various prehistoric environments.",
@@ -89,7 +89,7 @@
   },
   {
     "id": 12,
-    "Game_Name": "math",
+    "Game_Name": "Math",
     "path": "math",
     "image": "games/game12/icon-512.png",
     "description": "Math is an educational game focused on improving math skills through fun and interactive exercises.",
@@ -97,7 +97,7 @@
   },
   {
     "id": 13,
-    "Game_Name": "ninja-run",
+    "Game_Name": "Ninja Run",
     "path": "ninja-run",
     "image": "games/game13/icon-256.png",
     "description": "Math is an educational game focused on improving math skills through fun and interactive exercises.",
@@ -105,7 +105,7 @@
   },
   {
     "id": 14,
-    "Game_Name": "pac-circle",
+    "Game_Name": "Pac Circle",
     "path": "pac-circle",
     "image": "games/game14/icon-256.png",
     "description": "Pac-Circle is a modern twist on the classic Pac-Man game, featuring circular mazes and exciting gameplay.",
@@ -113,7 +113,7 @@
   },
   {
     "id": 15,
-    "Game_Name": "football",
+    "Game_Name": "Football",
     "path": "football",
     "image": "games/game15/logo15.png",
     "description": "Football is a sports game that simulates the excitement and strategy of a real football match.",
@@ -121,7 +121,7 @@
   },
   {
     "id": 16,
-    "Game_Name": "fruit-cut",
+    "Game_Name": "Fruit Cut",
     "path": "fruit-cut",
     "image": "games/game16/logo16.png",
     "description": "Fruit-Cut is an arcade game where players slice through various fruits as they fly across the screen, aiming for high scores.",
@@ -129,7 +129,7 @@
   },
   {
     "id": 17,
-    "Game_Name": "the-sorcreate",
+    "Game_Name": "The Sorcreate",
     "path": "the-sorcreate",
     "image": "games/game17/bg_menu.png",
     "description": "The-Sorcreate is a magical puzzle game where players solve mysteries and cast spells to progress through enchanting levels.",
@@ -137,7 +137,7 @@
   },
   {
     "id": 18,
-    "Game_Name": "sheepop",
+    "Game_Name": "Sheepop",
     "path": "sheepop",
     "image": "games/game18/logo18.png",
     "description": "Sheepop is a fun and casual game where players help a sheep jump from platform to platform without falling.",
@@ -153,7 +153,7 @@
   },
   {
     "id": 20,
-    "Game_Name": "run-into-deth",
+    "Game_Name": "Run Into Deth",
     "path": "run-into-deth",
     "image": "games/game20/icon-256.png",
     "description": "Run-Into-Deth is an intense action game where players must run and avoid deadly traps to survive.",
@@ -161,7 +161,7 @@
   },
   {
     "id": 21,
-    "Game_Name": "puzzle",
+    "Game_Name": "Puzzle",
     "path": "puzzle",
     "image": "games/game21/logo21.png",
     "description": "Puzzle is a game where you solve various challenges that test your problem-solving skills. It features different levels with increasing difficulty. Enjoy hours of engaging gameplay as you unlock new puzzles. Perfect for all ages. Sharpen your mind and have fun!",
@@ -169,7 +169,7 @@
   },
   {
     "id": 22,
-    "Game_Name": "card",
+    "Game_Name": "Card",
     "path": "card",
     "image": "games/game22/logo.png",
     "description": "Card is a classic game that involves strategy and luck. Play against opponents and use your skills to win. Multiple variations of card games are available. Perfect for casual gaming sessions. Enjoy the timeless fun of card games!",
@@ -177,7 +177,7 @@
   },
   {
     "id": 23,
-    "Game_Name": "soldier-way",
+    "Game_Name": "Soldier Way",
     "path": "soldier-way",
     "image": "games/game23/icon-256.png",
     "description": "Soldier Way is an action-packed game where you lead your soldier through challenging missions. Use your combat skills to defeat enemies and complete objectives. Immerse yourself in intense gameplay. Ideal for fans of action and strategy games.",
@@ -185,7 +185,7 @@
   },
   {
     "id": 24,
-    "Game_Name": "aliean-way",
+    "Game_Name": "Aliean Way",
     "path": "aliean-way",
     "image": "games/game24/icon-256.png",
     "description": "Alien Way is an exciting adventure where you explore alien worlds. Solve puzzles, battle alien creatures, and uncover secrets. Enjoy stunning graphics and captivating gameplay. A perfect game for those who love exploration and sci-fi themes.",
@@ -193,7 +193,7 @@
   },
   {
     "id": 25,
-    "Game_Name": "arnie-attack",
+    "Game_Name": "Arnie Attack",
     "path": "arnie-attack",
     "image": "games/game25/icon-256.png",
     "description": "Arnie Attack is a thrilling shooter game where you play as Arnie, battling enemies across various levels. Use different weapons and tactics to overcome obstacles. Fast-paced and action-packed, this game will keep you on the edge of your seat.",
@@ -201,7 +201,7 @@
   },
   {
     "id": 26,
-    "Game_Name": "grave-drive",
+    "Game_Name": "Grave Drive",
     "path": "grave-drive",
     "image": "games/game26/icon-256.png",
     "description": "Grave Drive is a horror-themed driving game where you navigate through eerie landscapes. Avoid obstacles and reach your destination while battling supernatural forces. Perfect for fans of spooky and adrenaline-pumping experiences.",
@@ -209,7 +209,7 @@
   },
   {
     "id": 27,
-    "Game_Name": "green-chick",
+    "Game_Name": "Green Chick",
     "path": "green-chic",
     "image": "games/game27/icon-256.png",
     "description": "Green Chick is a fun and colorful platformer game where you control a green chick on a quest to save its friends. Jump, run, and dodge obstacles across vibrant levels. Suitable for players of all ages who enjoy lively adventures.",
@@ -217,7 +217,7 @@
   },
   {
     "id": 28,
-    "Game_Name": "koby-jump-escape",
+    "Game_Name": "Koby Jump Escape",
     "path": "koby-jump-escape",
     "image": "games/game28/icon-256.png",
     "description": "Koby Jump Escape is an exhilarating platformer where you help Koby escape from perilous traps. Perform high jumps and swift maneuvers to overcome challenges. The game offers fast-paced action and requires quick reflexes.",
@@ -225,7 +225,7 @@
   },
   {
     "id": 29,
-    "Game_Name": "moto-beach-ride",
+    "Game_Name": "Moto Beach Side",
     "path": "moto-beach-ride",
     "image": "games/game29/icon-256.png",
     "description": "Moto Beach Ride is a thrilling racing game set on scenic beach tracks. Race against time and other players, performing stunts and collecting power-ups. Perfect for those who enjoy high-speed motorcycle racing.",
@@ -233,7 +233,7 @@
   },
   {
     "id": 30,
-    "Game_Name": "night-dress",
+    "Game_Name": "Night Dress",
     "path": "night-dress",
     "image": "games/game30/icon-256.png",
     "description": "Night Dress is a stylish dress-up game where you can create beautiful outfits for night events. Mix and match clothes, accessories, and hairstyles to design the perfect look. Ideal for fashion enthusiasts and creative minds.",
@@ -241,7 +241,7 @@
   },
   {
     "id": 31,
-    "Game_Name": "super-8-race",
+    "Game_Name": "Super 8 Race",
     "path": "super-8-race",
     "image": "games/game31/logo33.png",
     "description": "Super 8 Race is a high-octane racing game with unique tracks and fast cars. Compete in intense races, upgrade your vehicle, and aim for the top spot. Enjoy the thrill of speed and the excitement of racing.",
@@ -249,7 +249,7 @@
   },
   {
     "id": 32,
-    "Game_Name": "zombbie",
+    "Game_Name": "Zombbie",
     "path": "zombbie",
     "image": "games/game32/icon-256.png",
     "description": "Zombie is an action game where you fight against hordes of zombies. Use various weapons and strategies to survive waves of undead. The game offers intense gameplay and a thrilling zombie apocalypse experience.",
@@ -257,7 +257,7 @@
   },
   {
     "id": 33,
-    "Game_Name": "color-ball",
+    "Game_Name": "Color Ball",
     "path": "color-ball",
     "image": "games/game33/logo31.png",
     "description": "Color Ball is a fun puzzle game where you match balls of the same color. Solve different levels with increasing difficulty and use power-ups to help you. Perfect for casual play and fans of color-matching games.",
@@ -265,7 +265,7 @@
   },
   {
     "id": 34,
-    "Game_Name": "alienconnect",
+    "Game_Name": "Alienconnect",
     "path": "alienconnect",
     "image": "games/game34/logo34.png",
     "description": "Alien Connect is a unique puzzle game where you connect alien creatures to form chains. Strategize your moves to complete each level with the highest score. Enjoy the captivating gameplay and intriguing alien theme.",
@@ -273,7 +273,7 @@
   },
   {
     "id": 35,
-    "Game_Name": "melody",
+    "Game_Name": "Melody",
     "path": "melody",
     "image": "games/game35/icons/icon-256.png",
     "description": "Melody is a music-based game where you follow the rhythm and create melodies. Tap on the notes in sync with the music to score points. Perfect for music lovers and rhythm game enthusiasts.",
@@ -281,7 +281,7 @@
   },
   {
     "id": 36,
-    "Game_Name": "9-patch puzzle",
+    "Game_Name": "9 Patch Puzzle",
     "path": "9-patch puzzle",
     "image": "games/game36/icons/icon-256.png",
    "description": "9-Patch Puzzle is a challenging puzzle game where you arrange pieces to complete pictures. Solve various puzzles with increasing complexity. Ideal for puzzle enthusiasts who enjoy a good challenge.",
@@ -289,7 +289,7 @@
   },
   {
     "id": 37,
-    "Game_Name": "heartscape",
+    "Game_Name": "Heartscape",
     "path": "heartscape",
     "image": "games/game37/icons/icon-256.png",
     "description": "Heartscape is a calming puzzle game that takes you on a journey through beautiful landscapes. Solve intricate puzzles by connecting hearts. Enjoy the relaxing music and serene visuals. Perfect for unwinding and de-stressing after a long day. A game for all ages to enjoy and relax.",
@@ -297,7 +297,7 @@
   },
   {
     "id": 38,
-    "Game_Name": "mr.machagi",
+    "Game_Name": "Mr.Machagi",
     "path": "mr.machagi",
     "image": "games/game38/icons/icon-256.png",
     "description": "Mr. Machagi is an action-packed game where you control a skilled martial artist. Fight through waves of enemies and master your skills. Enjoy the dynamic combat and thrilling challenges. Perfect for action game enthusiasts. Can you defeat all the enemies and become the ultimate fighter?",
@@ -313,7 +313,7 @@
   },
   {
     "id": 40,
-    "Game_Name": "animalmerge",
+    "Game_Name": "AnimalMerge",
     "path": "animalmerge",
     "image": "games/game40/logo40.png",
     "description": "Kids Game is a delightful collection of mini-games designed for young children. Each game is easy to play and educational, helping kids learn while having fun. With colorful graphics and simple controls, it's perfect for preschoolers and young kids. Keep your little ones entertained and engaged.",
@@ -345,7 +345,7 @@
   },
   {
     "id": 44,
-    "Game_Name": "watermelon",
+    "Game_Name": "Watermelon",
     "path": "watermelon",
     "image": "games/game44/logo44.png",
     "description": "Watermelon is a delightful puzzle game where you slice and dice watermelons in various ways. Enjoy the refreshing visuals and satisfying gameplay. Perfect for a quick and fun gaming session. Test your slicing skills and see how many watermelons you can cut.",
@@ -353,7 +353,7 @@
   },
   {
     "id": 45,
-    "Game_Name": "terits",
+    "Game_Name": "Terits",
     "path": "terits",
     "image": "games/game45/logo45.png",
     "description": "Terits is a classic block puzzle game where you arrange falling blocks to clear lines. Enjoy the timeless gameplay and addictive challenges. Perfect for fans of classic puzzle games. See how long you can keep the board clear and beat your high score.",
@@ -361,7 +361,7 @@
   },
   {
     "id": 46,
-    "Game_Name": "ramses-Treasure",
+    "Game_Name": "Ramses Treasure",
     "path": "ramses-Treasure",
     "image": "games/game46/logo46.png",
     "description": "Ramses' Treasure is an adventurous puzzle game set in ancient Egypt. Solve challenging puzzles and uncover hidden treasures. Enjoy the rich visuals and intriguing storyline. Perfect for puzzle enthusiasts and history buffs. Embark on an epic quest for Ramses' treasures.",
@@ -369,7 +369,7 @@
   },
   {
     "id": 47,
-    "Game_Name": "jelly-break",
+    "Game_Name": "Jelly Break",
     "path": "jelly-break",
     "image": "games/game47/logo47.png", "description": "Jelly Break is a colorful and fun arcade game where you break jellies to score points. Enjoy the vibrant visuals and addictive gameplay. Perfect for a quick gaming session. See how many jellies you can break and aim for the high score.",
     "tags": ["arcade", "colorful", "fun", "quick", "high score"]
@@ -385,7 +385,7 @@
   },
   {
     "id": 49,
-    "Game_Name": "flight-slim",
+    "Game_Name": "Flight Slim",
     "path": "flight-slim",
     "image": "games/game49/stage7.png",
     "description": "Flight Slim is an exciting flight simulation game where you pilot a slim, agile aircraft. Navigate through challenging courses and avoid obstacles. Enjoy the realistic graphics and thrilling gameplay. Perfect for aviation enthusiasts and gamers looking for a challenge.",
@@ -393,7 +393,7 @@
   },
   {
     "id": 50,
-    "Game_Name": "Aline-invision",
+    "Game_Name": "Aline Invision",
     "path": "Aline-invision",
     "image": "games/game50/logo50.png",
     "description": "Aline Invision is a captivating sci-fi puzzle game where you solve complex puzzles to progress. Enjoy the futuristic visuals and intriguing storyline. Perfect for fans of sci-fi and challenging puzzles. Test your intellect and see if you can uncover the secrets of Aline Invision.",
