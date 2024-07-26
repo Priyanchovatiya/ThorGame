@@ -12,7 +12,7 @@ declare let gtag: Function;
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'games';
+  title = 'Thot Games - Ulock Your Fun';
   routeChange: any;
   // constructor(private router: Router){
   //  const navElement = router.events.pipe(
