@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CardsComponent } from '../../subElement/cards/cards.component';
+import { IdService } from '../../services/id.service';
 
 
 
@@ -11,5 +12,11 @@ import { CardsComponent } from '../../subElement/cards/cards.component';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
+
+  constructor(private idService: IdService) {}
+
+  ngOnInit(): void {
+    this.idService.setDash(true)
+  }
 
 }

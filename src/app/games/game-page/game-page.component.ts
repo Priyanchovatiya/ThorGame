@@ -34,7 +34,10 @@ export class GamePageComponent implements OnInit {
   constructor(private router: Router ,private route: ActivatedRoute,  private idService: IdService, private dataService: CardsService, private sanitizer: DomSanitizer, private scrollService: ScrollService) { }
 
   ngOnInit(): void {
-    this.gameId = this.idService.getId();
+    this.gameId = this.idService.getToken();
+    this.idService.setDash(false)
+    console.log(this.gameId);
+    
     if (this.gameId) {
           this.loadGameDetails(this.gameId);
         }
