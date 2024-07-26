@@ -29,7 +29,7 @@ export class CardsComponent implements OnInit {
 
   onGameClick(id: number): void {
     this.idService.setId(id);
-    this.router.navigate(['/Game-Page']);
+    this.router.navigate(['/gamePage']);
   }
 
 }

@@ -23,7 +23,7 @@ export const routes: Routes = [
     // {'path': '/**',title: 'error',component: ErrorComponent},
 
     // Games route
-    {'path': 'Game-Page',title: 'Game-Page',loadComponent: () => import('./games/game-page/game-page.component').then(c => c.GamePageComponent)},
+    {'path': 'gamePage',title: 'Game-Page',loadComponent: () => import('./games/game-page/game-page.component').then(c => c.GamePageComponent)},
     //1 - 10
     // {'path': 'animal-word',title: 'animal-word',component: Game2Component},
     // {'path': 'angry-potato',title: 'angry-potato',component: Game1Component},
