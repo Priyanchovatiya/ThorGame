@@ -1,17 +1,17 @@
 [
   {
     "id": 1,
-    "Game_Name": "Animal Word",
-    "path": "animal-word",
-    "image": "games/game2/icons/icon-256.png",
+    "Game_Name": "Fish World",
+    "path": "Fish World",
+    "image": "games/game1/icon-256.png",
     "description": "Animal-Word is an educational game that helps children learn the names of different animals through engaging visuals and interactive gameplay.",
     "tags": ["Educational", "Animals", "Kids"]
   },
   {
     "id": 2,
-    "Game_Name": "Angry Potato",
-    "path": "angry-potato",
-    "image": "games/game1/logo1.png",
+    "Game_Name": "Animal Word",
+    "path": "Animal Word",
+    "image": "games/game2/icons/icon-512.png",
     "description": "Angry-Potato is a fun and quirky game where players control an angry potato navigating through various obstacles to reach the finish line.",
     "tags": ["Adventure", "Humor", "Obstacles"]
   },
@@ -265,9 +265,9 @@
   },
   {
     "id": 34,
-    "Game_Name": "Alienconnect",
-    "path": "alienconnect",
-    "image": "games/game34/logo34.png",
+    "Game_Name": "Flappy Bounce",
+    "path": "Flappy Bounce",
+    "image": "games/game34/ball.png",
     "description": "Alien Connect is a unique puzzle game where you connect alien creatures to form chains. Strategize your moves to complete each level with the highest score. Enjoy the captivating gameplay and intriguing alien theme.",
     "tags": ["Puzzle", "Strategy", "Aliens", "Connecting", "Levels"]
   },
@@ -313,9 +313,9 @@
   },
   {
     "id": 40,
-    "Game_Name": "AnimalMerge",
-    "path": "animalmerge",
-    "image": "games/game40/logo40.png",
+    "Game_Name": "Ester egg",
+    "path": "Ester Egg",
+    "image": "games/game40/clipboard.png",
     "description": "Kids Game is a delightful collection of mini-games designed for young children. Each game is easy to play and educational, helping kids learn while having fun. With colorful graphics and simple controls, it's perfect for preschoolers and young kids. Keep your little ones entertained and engaged.",
     "tags": ["kids", "educational", "mini-games", "fun", "colorful"]
   },
@@ -353,9 +353,9 @@
   },
   {
     "id": 45,
-    "Game_Name": "Terits",
-    "path": "terits",
-    "image": "games/game45/logo45.png",
+    "Game_Name": "Tank War",
+    "path": "Tank War",
+    "image": "games/game45/war.png",
     "description": "Terits is a classic block puzzle game where you arrange falling blocks to clear lines. Enjoy the timeless gameplay and addictive challenges. Perfect for fans of classic puzzle games. See how long you can keep the board clear and beat your high score.",
     "tags": ["classic", "block puzzle", "addictive", "timeless", "high score"]
   },
