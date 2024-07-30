@@ -53,7 +53,7 @@
                 },
                 {
                   "type": "css",
-                  "maximumWarning": "8kb",
+                  "maximumWarning": "10kb",
                   "maximumError": "10kb"
                 }
               ],
