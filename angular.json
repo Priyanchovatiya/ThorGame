@@ -54,11 +54,6 @@
                   "maximumError": "10kb"
                 },
                 {
-                  "type": "css",
-                  "maximumWarning": "10kb",
-                  "maximumError": "10kb"
-                },
-                {
                   "type": "all",
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
