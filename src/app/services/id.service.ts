@@ -9,7 +9,9 @@ export class IdService {
 
   private tokenKey = 'token_game';
 
-  private dsahBoard = "dash_board"
+  private dsahBoard = "dash_board";
+
+  private namekey = "game_name";
 
   
   private isBrowser(): boolean {
@@ -30,6 +32,25 @@ export class IdService {
     getToken(): string | null {
       if (this.isBrowser()) {
         return localStorage.getItem('token_game');
+      }
+      return null;
+    }
+
+
+
+    // Store token in local storage
+  setName(id: any) {
+    if (this.isBrowser()) {
+      localStorage.setItem(this.namekey, id);
+    }
+    return null;
+  }
+
+  
+    // Retrieve token from local storage
+    getName(): string | null {
+      if (this.isBrowser()) {
+        return localStorage.getItem('game_name');
       }
       return null;
     }

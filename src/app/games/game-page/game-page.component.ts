@@ -10,11 +10,12 @@ import { CardsComponent } from '../../subElement/cards/cards.component';
 import { ScrollService } from '../../services/scroll.service';
 import { GamePortalComponent } from '../game-portal/game-portal.component';
 import { IdService } from '../../services/id.service';
+import { CarddComponent } from '../../subElement/cardd/cardd.component';
 
 @Component({
   selector: 'app-game-page',
   standalone: true,
-  imports: [LoadingIndicatorComponent, CommonModule, CardsComponent, RouterLink, RouterLinkActive, GamePortalComponent],
+  imports: [LoadingIndicatorComponent, CommonModule, CardsComponent, RouterLink, RouterLinkActive, GamePortalComponent, CarddComponent],
   templateUrl: './game-page.component.html',
   styleUrl: './game-page.component.css'
 })

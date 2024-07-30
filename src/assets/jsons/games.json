@@ -398,4 +398,23 @@
     "image": "games/game50/logo50.png",
     "description": "Aline Invision is a captivating sci-fi puzzle game where you solve complex puzzles to progress. Enjoy the futuristic visuals and intriguing storyline. Perfect for fans of sci-fi and challenging puzzles. Test your intellect and see if you can uncover the secrets of Aline Invision.",
     "tags": ["sci-fi", "puzzle", "futuristic", "challenging", "intriguing"]
+  },
+  {
+    "id": 51,
+    "Game_Name": "Fruit Slasher",
+    "path": "Fruit Slasher",
+    "image": "games/game51/icon-256.png",
+    "description": "Aline Invision is a captivating sci-fi puzzle game where you solve complex puzzles to progress. Enjoy the futuristic visuals and intriguing storyline. Perfect for fans of sci-fi and challenging puzzles. Test your intellect and see if you can uncover the secrets of Aline Invision.",
+    "tags": ["sci-fi", "puzzle", "futuristic", "challenging", "intriguing"]
+  },
+  {
+    "id": 52,
+    "Game_Name": "Fruit Snake",
+    "path": "Fruit Snake",
+    "image": "games/game52/icon-256.png",
+    "description": "Aline Invision is a captivating sci-fi puzzle game where you solve complex puzzles to progress. Enjoy the futuristic visuals and intriguing storyline. Perfect for fans of sci-fi and challenging puzzles. Test your intellect and see if you can uncover the secrets of Aline Invision.",
+    "tags": ["sci-fi", "puzzle", "futuristic", "challenging", "intriguing"]
   }]
+  
+
+ 

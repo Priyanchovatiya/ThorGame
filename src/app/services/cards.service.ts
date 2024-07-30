@@ -11,6 +11,7 @@ export class CardsService {
   // }
 
   private dataUrl = 'assets/jsons/games.json';  
+  private dataUrl2 = 'assets/jsons/combo.json';  
 
   constructor(private http: HttpClient) { }
 
@@ -20,6 +21,15 @@ export class CardsService {
 
   getDataById(id: string): Observable<any> {
     const url = `${this.dataUrl}/${id}`;
+    return this.http.get<any>(url);
+  }
+
+  getData1(): Observable<any> {
+    return this.http.get<any>(this.dataUrl2);
+  }
+
+  getDataById1(id: string): Observable<any> {
+    const url = `${this.dataUrl2}/${id}`;
     return this.http.get<any>(url);
   }
 }

@@ -16,7 +16,7 @@
   /* display: inline-block; */
   width: 100%;
   text-align: center;
-  background-color: #090C1B;
+
 }
 
 .container{
@@ -32,7 +32,7 @@
   text-align: left;
   display: inline-block;
   width: 100%;
-  /* border-radius: 12px; */
+
 }
 
 .logo{
@@ -54,7 +54,7 @@
   font-weight: bold;
   font-family: 'Signika';
   letter-spacing: -0.5px;
-  /* padding-left: 12px; */
+
 }
   
 .cards{
@@ -131,3 +131,23 @@
 .btn{
   margin-top: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

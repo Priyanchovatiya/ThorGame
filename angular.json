@@ -29,7 +29,8 @@
               "src/assets",
               "src/12.html",
               "src/ads.txt",
-              "src/games"
+              "src/games",
+              "src/combo"
             ],
             "styles": [
               "src/styles.css"
