@@ -50,6 +50,11 @@
                   "type": "anyComponentStyle",
                   "maximumWarning": "10kb",
                   "maximumError": "10kb"
+                },
+                {
+                  "type": "css",
+                  "maximumWarning": "8kb",
+                  "maximumError": "10kb"
                 }
               ],
               "outputHashing": "all"
