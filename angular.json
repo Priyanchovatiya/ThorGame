@@ -57,6 +57,16 @@
                   "type": "css",
                   "maximumWarning": "10kb",
                   "maximumError": "10kb"
+                },
+                {
+                  "type": "all",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                },
+                {
+                  "type": "bundle",
+                  "maximumWarning": "1mb",
+                  "maximumError": "2mb"
                 }
               ],
               "outputHashing": "all"
