@@ -30,7 +30,9 @@
               "src/12.html",
               "src/ads.txt",
               "src/games",
-              "src/combo"
+              "src/combo",
+              "src/favicon.png",
+              "src/thoricon.png"
             ],
             "styles": [
               "src/styles.css"
