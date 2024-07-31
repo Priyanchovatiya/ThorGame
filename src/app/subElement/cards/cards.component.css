@@ -200,3 +200,16 @@ border-bottom-right-radius: 12px;
     border-radius: 60px; /* Increased border radius for mobile screens */
   }
 }
+
+.container{
+max-width: 1400px;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0,0.8);
+  margin: 40px;
+  padding: 8px;
+  border-radius: 20px;
+}
+.c-text{
+
+  font-size: 20px;
+}
