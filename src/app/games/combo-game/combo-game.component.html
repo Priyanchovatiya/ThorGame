@@ -13,10 +13,10 @@
 
   </div> -->
  <!-- {{pageDisplay}} -->
- <div *ngIf="this.pageDisplay">
-    <app-game-portal [gameNumber]="this.singleData.id"></app-game-portal>
-  </div>
-<div class="main" *ngIf="!pageDisplay">
+ <div *ngIf="loading">
+  <app-loading ></app-loading>
+</div>
+<div class="main" *ngIf="!loading">
   <div class="container">
     <div class="game-frame-container">
       <!-- <iframe [src]="safeUrl " width="100%" height="670" scrolling="none" frameborder="0"></iframe> -->
@@ -62,9 +62,7 @@
       </div>
       <app-cardd></app-cardd>
      
-      <div class="c-text">
-        Top Rated:
-      </div>
+      
       <app-cards></app-cards>
       
 

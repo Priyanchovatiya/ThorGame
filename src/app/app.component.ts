@@ -2,12 +2,13 @@ import { Component } from '@angular/core';
 import { NavigationEnd, Router, RouterOutlet } from '@angular/router';
 import { SliderComponent } from './mainService/slider/slider.component';
 import { filter } from 'rxjs';
+import { FooterComponent } from './mainService/footer/footer.component';
 declare let gtag: Function; 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, SliderComponent],
+  imports: [RouterOutlet, SliderComponent, FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

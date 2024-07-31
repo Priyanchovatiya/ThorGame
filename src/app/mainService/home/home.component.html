@@ -1,4 +1,8 @@
-<div class="main">
+
+<!-- <div *ngIf="loading">
+  <app-loading ></app-loading>
+</div> -->
+<div *ngIf="!loading" class="main">
 
        <!-- <app-game-portal></app-game-portal> -->
         
@@ -7,17 +11,7 @@
         </div> -->
        <app-cardd></app-cardd>
        
-       <div class="container ">
-        <div class="line ">
-          <div class="c-text ">
-            
-            <span style="color: #F2EE11;">POPULAR</span> &nbsp;
-            <span style="color: rgba(255,79,99,0.9);">GAMES</span>
-           </div>
-        </div>
-       
-       </div>
-      
+ 
        <app-cards></app-cards>
        
         <!-- <app-game1></app-game1> -->

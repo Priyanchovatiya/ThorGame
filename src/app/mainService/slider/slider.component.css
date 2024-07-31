@@ -4,13 +4,22 @@
   }
 
 
-  .flex {
-    padding-top: 15px;
-    padding-bottom: 15px;
+/* Default styles */
+.text {
+  /* Your existing styles */
+  padding: 0px 20px;
+}
+
+.logo{
+  padding: 0px 20px;
+}
+
+/* Mobile specific styles */
+@media (max-width: 768px) {
+  .text {
+      padding: 0px 40px;
   }
-  @media (max-width: 768px) {
-    .flex {
-      padding-top: 0;
-      padding-bottom: 0;
-    }
+  .logo{
+    padding: 0px 30px;
   }
+}

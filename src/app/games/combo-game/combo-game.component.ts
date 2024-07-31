@@ -11,11 +11,12 @@ import { ScrollService } from '../../services/scroll.service';
 import { GamePortalComponent } from '../game-portal/game-portal.component';
 import { IdService } from '../../services/id.service';
 import { CarddComponent } from '../../subElement/cardd/cardd.component';
+import { LoadingComponent } from '../../mainService/loading/loading.component';
 
 @Component({
   selector: 'app-combo-game',
   standalone: true,
-  imports: [LoadingIndicatorComponent, CommonModule, CardsComponent, RouterLink, RouterLinkActive, GamePortalComponent, CarddComponent],
+  imports: [LoadingIndicatorComponent, CommonModule, CardsComponent, RouterLink, RouterLinkActive, GamePortalComponent, CarddComponent, LoadingComponent],
   templateUrl: './combo-game.component.html',
   styleUrl: './combo-game.component.css'
 })
@@ -31,30 +32,27 @@ export class ComboGameComponent implements OnInit {
   loading = true;
   singleData: any;
   routeSubscription: any;
+ 
 
   constructor(private router: Router ,private route: ActivatedRoute,  private idService: IdService, private dataService: CardsService, private sanitizer: DomSanitizer, private scrollService: ScrollService) { }
 
   ngOnInit(): void {
+
     this.gameId = this.idService.getName();
-    
-    
     this.idService.setDash(false)
+    // this.route.data.subscribe(data => {
+    //   const title = this.gameId || 'Default Title'; // Fallback to 'Default Title' if no title is provided
+    //   this.titleService.setTitle(title);
+    // });
  
-    
     if (this.gameId) {
-    
           this.loadGameDetails(this.gameId);
-         
-          
+          this.loading = false;
         }
   }
 
 
   loadGameDetails(id: string) {
-
-  
-    
-
     this.dataService.getData1().subscribe((response) => {
       this.id = this.gameId - 1;
 

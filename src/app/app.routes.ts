@@ -21,7 +21,7 @@ export const routes: Routes = [
     {'path': 'contact',title: 'contact',component: ContactComponent},
     {'path': 'terms-of-use',title: 'terms-of-use',component: TouComponent},
     {'path': 'affiliate',title: 'affiliate',component: AffilateComponent},
-    // {'path': '/**',title: 'error',component: ErrorComponent},
+    // {'path': '**',title: 'error',component: ErrorComponent},
 
     // Games route
     {'path': 'gamePage',title: 'Game-Page',loadComponent: () => import('./games/game-page/game-page.component').then(c => c.GamePageComponent)},

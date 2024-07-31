@@ -3,11 +3,12 @@ import { CardsService } from '../../services/cards.service';
 import { CommonModule } from '@angular/common';
 import { Router, RouterLink, RouterLinkActive } from '@angular/router';
 import { IdService } from '../../services/id.service';
+import { LoadingComponent } from '../../mainService/loading/loading.component';
 
 @Component({
   selector: 'app-cards',
   standalone: true,
-  imports: [CommonModule, RouterLink, RouterLinkActive],
+  imports: [CommonModule, RouterLink, RouterLinkActive, LoadingComponent],
   templateUrl: './cards.component.html',
   styleUrl: './cards.component.css'
 })
@@ -15,6 +16,7 @@ export class CardsComponent implements OnInit {
 
   public data: any[] = []; 
    value: any;
+   loading = false;
  
 
   constructor(private dataService: CardsService, private router: Router, private idService: IdService){}
@@ -23,10 +25,11 @@ export class CardsComponent implements OnInit {
    
     // console.log("ssdsfsdffd",this.idService.getDash());
     this.value = this.idService.getDash();
+    this.loading = true;
     this.dataService.getData().subscribe((response) => {
       // console.log(response);
-      
       this.data = response.reverse();
+      this.loading = false;
     });
   }
 
