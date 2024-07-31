@@ -21,18 +21,14 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              "src/logo128.png",
-              "src/logo1281.png",
-              "src/logo48.png",
-              "src/icon16.png",
-              "src/icon64.png",
               "src/assets",
               "src/12.html",
               "src/ads.txt",
               "src/games",
               "src/combo",
               "src/favicon.png",
-              "src/thoricon.png"
+              "src/thoricon.png",
+              "src/ads.txt"
             ],
             "styles": [
               "src/styles.css"
