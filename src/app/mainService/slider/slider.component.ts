@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Renderer2, ElementRef } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import { NavbarService } from '../../services/navbar.service';
 
@@ -14,13 +14,19 @@ export class SliderComponent implements OnInit  {
 
   showOtherJobType: boolean = false;
   isVisible: boolean = true;
+  isNavbarActive: boolean = false;
 
-  constructor(private navbarService: NavbarService){}
+  constructor(private navbarService: NavbarService, private renderer: Renderer2, private el: ElementRef){}
 
   ngOnInit() {
     this.navbarService.navbarVisible$.subscribe(visible => {
       this.isVisible = visible;
     });
+
+    const mobileNavButton = this.el.nativeElement.querySelector('.mobile-navbar-btn');
+    const navHeader = this.el.nativeElement.querySelector('.header');
+
+    
   }
 
   openNotifications() {
@@ -29,6 +35,12 @@ export class SliderComponent implements OnInit  {
     const modelDiv = document.getElementById('mobile-menu');
     this.showOtherJobType = !this.showOtherJobType;
   }
+
+  toggleNavbar(): void {
+    this.isNavbarActive = !this.isNavbarActive;
+  }
+
+
   
 
 }
