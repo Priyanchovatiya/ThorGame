@@ -14,12 +14,13 @@
 }
 
 .header {
-  padding: 0 60px;
+  /* padding: 0 60px; */
   height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  max-width: 1400px;
+  background-color: black;
 }
 
 .header .logo {
