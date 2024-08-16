@@ -38,13 +38,24 @@
 }
 
 .blog_image{
-    padding: 10px 200px;
+    /* padding: 10px 200px; */
     width: 100%;
     text-align: center;
     align-items: center;
-    margin: auto;
+    /* margin: auto; */
     margin-top: 24px;
 }
+
+.blog_image_header{
+    /* padding: 10px 200px; */
+    width: 100%;
+   
+    text-align: center;
+    align-items: center;
+    /* margin: auto; */
+    /* margin-top: px; */
+}
+
 
 .blog_para{
     margin-top: 15px;
@@ -82,6 +93,13 @@
     margin-top: 10px;
     padding: 10px 20px;
     font-weight: bold;
+}
+
+.images{
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    margin: auto;
 }
 
 @media screen and (max-width: 600px) {
