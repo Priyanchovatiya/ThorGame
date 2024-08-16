@@ -10,6 +10,7 @@ import { ErrorComponent } from './mainService/error/error.component';
 import { ComboGameComponent } from './games/combo-game/combo-game.component';
 import { BlogComponent } from './mainService/blog/blog.component';
 import { FirstComponent } from './blog/first/first.component';
+import { SecondComponent } from './blog/second/second.component';
 
 export const routes: Routes = [
 
@@ -28,6 +29,7 @@ export const routes: Routes = [
 
     //blog routes
     {'path': 'first',title: 'first',component: FirstComponent},
+    {'path': 'second',title: 'second',component: SecondComponent},
 
     // Games route
     {'path': 'gamePage',title: 'Game-Page',loadComponent: () => import('./games/game-page/game-page.component').then(c => c.GamePageComponent)},
