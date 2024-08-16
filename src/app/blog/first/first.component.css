@@ -83,3 +83,25 @@
     padding: 10px 20px;
     font-weight: bold;
 }
+
+@media screen and (max-width: 600px) {
+    .blog_heading{
+        font-size: 25px;
+    }
+
+    .blog_para{
+        font-size: 12px;
+    }
+
+    .blog_subpara{
+        font-size: 12px;
+    }
+
+    .blog_subheading{
+        font-size: 15px;
+    }
+
+    .blog_subheading{
+        font-size: 8px;
+    }
+}
