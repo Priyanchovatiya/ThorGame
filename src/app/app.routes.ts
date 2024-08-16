@@ -8,6 +8,8 @@ import { TouComponent } from './mainService/tou/tou.component';
 import { AffilateComponent } from './mainService/affilate/affilate.component';
 import { ErrorComponent } from './mainService/error/error.component';
 import { ComboGameComponent } from './games/combo-game/combo-game.component';
+import { BlogComponent } from './mainService/blog/blog.component';
+import { FirstComponent } from './blog/first/first.component';
 
 export const routes: Routes = [
 
@@ -21,7 +23,11 @@ export const routes: Routes = [
     {'path': 'contact',title: 'contact',component: ContactComponent},
     {'path': 'terms-of-use',title: 'terms-of-use',component: TouComponent},
     {'path': 'affiliate',title: 'affiliate',component: AffilateComponent},
+    {'path': 'blogs',title: 'blogs',component: BlogComponent},
     // {'path': '**',title: 'error',component: ErrorComponent},
+
+    //blog routes
+    {'path': 'first',title: 'first',component: FirstComponent},
 
     // Games route
     {'path': 'gamePage',title: 'Game-Page',loadComponent: () => import('./games/game-page/game-page.component').then(c => c.GamePageComponent)},

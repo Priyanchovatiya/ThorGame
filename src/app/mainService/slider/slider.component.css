@@ -1,6 +1,8 @@
 .activebutton {
-  background-color: rgba(255, 79, 99, 0.9); /* Change to your desired active state color */
-  color: white;
+  /* background-color: rgba(255, 79, 99, 0.9); */
+  color: black;
+  border-bottom: 3px solid black;
+
 }
 
 /* Default styles */
@@ -20,7 +22,7 @@
   justify-content: space-between;
   align-items: center;
   max-width: 1400px;
-  background-color: black;
+
 }
 
 .header .logo {
@@ -157,3 +159,33 @@
     width: 60%;
   }
 }
+
+
+
+
+
+.s-header {
+  /* z-index: 100; */
+  /* width: 100%; */
+  background-color: #f0efef;
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='1' viewBox='0 0 40 1' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v1H0z' fill='%23151515' fill-opacity='0.02' fill-rule='evenodd'/%3E%3C/svg%3E");
+  
+  -webkit-box-shadow: 0px 1px 0px rgba(17, 17, 26, 0.03), 0px 8px 16px rgba(17, 17, 26, 0.04);
+  box-shadow: 0px 1px 0px rgba(17, 17, 26, 0.03), 0px 8px 16px rgba(17, 17, 26, 0.04);
+  /* position: relative; */
+  /* display: -ms-flexbox; */
+  /* display: -webkit-box; */
+  /* display: flex; */
+  /* -ms-flex-align: center; */
+  /* -webkit-box-align: center; */
+  /* align-items: center; */
+}
+
+
+
+
+
+
+
+
+

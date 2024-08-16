@@ -3,6 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 @font-face {
     font-family: 'Inter';
     src: url('./assets/fonts/Inter/static/Inter-Regular.ttf') format('truetype');
@@ -32,8 +34,8 @@
 }
 
 body{
-    background-color: black;
-background: linear-gradient(190deg, rgba(2,0,36,1) 50%, rgba(255,79,99,0.9) 100%);
+    background-color: #F5F5F5;
+/* background: linear-gradient(190deg, rgba(2,0,36,1) 50%, rgba(255,79,99,0.9) 100%); */
 /* background: linear-gradient(10deg, rgba(255,69,0,1) 5%,  rgba(2,0,36,1) 90%); */
 background-attachment: fixed;
 }
