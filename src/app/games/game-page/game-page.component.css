@@ -39,7 +39,7 @@
     height: 45px;
     width: 45px;
     background-color: #090C1B;
-    background-image: url('../../../logo128.png');
+    /* background-image: url('../../../logo128.png'); */
     background-repeat: no-repeat;
     background-size: cover;
     float: left;
