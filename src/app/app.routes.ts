@@ -11,6 +11,7 @@ import { ComboGameComponent } from './games/combo-game/combo-game.component';
 import { BlogComponent } from './mainService/blog/blog.component';
 import { FirstComponent } from './blog/first/first.component';
 import { SecondComponent } from './blog/second/second.component';
+import { ThreeComponent } from './blog/three/three.component';
 
 export const routes: Routes = [
 
@@ -30,6 +31,7 @@ export const routes: Routes = [
     //blog routes
     {'path': 'first',title: 'first',component: FirstComponent},
     {'path': 'second',title: 'second',component: SecondComponent},
+    {'path': 'three',title: 'three',component: ThreeComponent},
 
     // Games route
     {'path': 'gamePage',title: 'Game-Page',loadComponent: () => import('./games/game-page/game-page.component').then(c => c.GamePageComponent)},
