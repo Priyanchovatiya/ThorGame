@@ -1,5 +1,6 @@
 
 <div class="s-header">
+  <div class="container">
 <header [class.active]="isNavbarActive" class="header">
   <a  routerLink="/home" routerLinkActive=""
   [routerLinkActiveOptions]="{exact: true}" ariaCurrentWhenActive="page"><img src="thoricon.png" alt="Thor Games logo" class="logo" /></a>
@@ -28,10 +29,11 @@
   </nav>
 
   <button class="mobile-navbar-btn" (click)="toggleNavbar()">
-    <i *ngIf="!isNavbarActive" class="fa-solid fa-bars mobile-nav-icon" style="color: white;" name="menu-outline"></i>
+    <i *ngIf="!isNavbarActive" class="fa-solid fa-bars mobile-nav-icon" style="color: black;" name="menu-outline"></i>
     
   </button>
 </header>
+</div>
 </div>
 
 
