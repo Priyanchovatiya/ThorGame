@@ -38,22 +38,38 @@ export class CarddComponent  implements OnInit {
     // }, 1500);
   }
 
-  onGameClick(id: number): void {
-    console.log("clicked");
-    this,this.idService.setName(id);
+  // onGameClick(id: number): void {
+  //   console.log("clicked");
+  //   this,this.idService.setName(id);
+  //   // this.idService.setId(id);
+  //   console.log("ssdsfsdffd",this.idService.getDash());
+  //   console.log("ssdsfsdffd",this.value);
+
+
+    
+  //     this.router.navigate(['/gameoPage']).then(() => {
+    
+  //       setTimeout(() => {
+  //         window.location.reload(); 
+  //       }, 1); 
+  //     });
+    
+  // }
+
+   onGameClick(id: number): void {
+    // console.log("clicked");
+    // this,
+    this.idService.setName(id);
     // this.idService.setId(id);
-    console.log("ssdsfsdffd",this.idService.getDash());
-    console.log("ssdsfsdffd",this.value);
+    console.log('on game click', this.idService.getDash(), this.value);
 
-
-    
-      this.router.navigate(['/gameoPage']).then(() => {
-    
-        setTimeout(() => {
-          window.location.reload(); 
-        }, 1); 
-      });
-    
+    this.router.navigate(['/gamesPage']).then(() => {
+      setTimeout(() => {
+        window.location.reload();
+        window.scrollTo(0, 0);
+      }, 1);
+    });
   }
+
 
 }

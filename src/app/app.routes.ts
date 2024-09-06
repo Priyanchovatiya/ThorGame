@@ -37,7 +37,7 @@ export const routes: Routes = [
 
     // Games route
     {'path': 'gamePage',title: 'Game-Page',loadComponent: () => import('./games/game-page/game-page.component').then(c => c.GamePageComponent)},
-    {'path': 'gameoPage',title: 'GamePage',component: ComboGameComponent},
+    {'path': 'gamesPage',title: 'GamesPage',component: ComboGameComponent},
     //1 - 10
     // {'path': 'animal-word',title: 'animal-word',component: Game2Component},
     // {'path': 'angry-potato',title: 'angry-potato',component: Game1Component},
