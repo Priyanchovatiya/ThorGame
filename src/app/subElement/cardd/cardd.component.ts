@@ -1,4 +1,4 @@
-import { Component, OnInit,Input, booleanAttribute, } from '@angular/core';
+import { Component, OnInit,Input, booleanAttribute, EventEmitter, Output, } from '@angular/core';
 import { CardsService } from '../../services/cards.service';
 import { CommonModule } from '@angular/common';
 import { Router, RouterLink, RouterLinkActive } from '@angular/router';
@@ -16,6 +16,8 @@ import { LoadingComponent } from '../../mainService/loading/loading.component';
 export class CarddComponent  implements OnInit {
 
   @Input({ transform: booleanAttribute }) pageReload: boolean = false;
+
+  @Output() loadGameDetails: EventEmitter<any> = new EventEmitter();
 
 
   public data: any[] = []; 
@@ -64,15 +66,15 @@ export class CarddComponent  implements OnInit {
     // this,
     this.idService.setName(id);
     // this.idService.setId(id);
-    //console.log('on game click', this.idService.getDash(), this.value);
+    console.log('on game click', this.idService.getDash(), this.value, id);
 
     this.router.navigate(['/gamesPage']).then(() => {
       // if not a home page then reload
-      if (this.pageReload)
-        setTimeout(() => {
-          window.location.reload();
-          window.scrollTo(0, 0);
-        }, 1);
+      if (this.pageReload) this.loadGameDetails.emit(id);
+      setTimeout(() => {
+        // window.location.reload();
+        window.scrollTo(0, 0);
+      }, 1);
     });
   }
 

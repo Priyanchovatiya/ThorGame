@@ -67,6 +67,7 @@ export class ComboGameComponent implements OnInit {
         if(response[i].id == id){
           // console.log(response[i].id);
           this.singleData = response[i];
+          this.gameId = id;
           // console.log("dsdsd", this.singleData);
           
           this.tags = this.singleData.tags;
