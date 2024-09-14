@@ -1,49 +1,25 @@
-<div class="nagas">
-  <script
-    async
-    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6811093144429996"
-    crossorigin="anonymous"
-  ></script>
-  <!-- Horizontal -->
-  <ins
-    class="adsbygoogle"
-    style="display: block"
-    data-ad-client="ca-pub-6811093144429996"
-    data-ad-slot="1234113747"
-    data-ad-format="auto"
-    data-full-width-responsive="true"
-  ></ins>
-  <script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
-</div>
+
 <div *ngIf="loading">
-  <app-loading></app-loading>
-</div>
-
-<div *ngIf="!loading" class="first">
-  <div class="grid grid-cols-2 md:grid-cols-6 gap-y-3 gap-x-3">
-    <div *ngFor="let item of data">
-      <article class="card">
-        <div class="subclass">
-          <a
-            (click)="onGameClick(item.id)"
-            routerLinkActive="activebutton"
-            [routerLinkActiveOptions]="{ exact: true }"
-            ariaCurrentWhenActive="page"
-          >
-            <img
-              class="h-auto max-w-full rounded-lg c-img"
-              src="combo/logos/{{ item.id }}.png"
-              alt=""
-            />
-
-            <h3 class="card__title">{{ item.name }}</h3>
-          </a>
-        </div>
-      </article>
-    </div>
+    <app-loading ></app-loading>
   </div>
+
+
+<div  *ngIf="!loading" class="first" >
+
+    <div class="grid grid-cols-2 md:grid-cols-6 gap-y-3 gap-x-3">
+        <div *ngFor="let item of data">
+            <article class=" card">
+                <div class="subclass">        
+                    <a (click)="onGameClick(item.id)" routerLinkActive="activebutton" [routerLinkActiveOptions]="{exact: true}" ariaCurrentWhenActive="page">
+                        <img class="h-auto max-w-full rounded-lg c-img" src="combo/logos/{{item.id}}.png" alt="">
+                                               
+                        <h3 class="card__title"> {{item.name}}</h3>
+                        
+                    </a>
+                </div>
+            </article>                
+        </div>        
+    </div>
 </div>
 
 <!--(click)="onGameClick(item.id)"  -->
