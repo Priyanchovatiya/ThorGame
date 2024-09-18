@@ -19,3 +19,6 @@ google.com, pub-5533854580432370, RESELLER, f08c47fec0942fa0
 
 
 google.com, pub-6811093144429996, DIRECT, f08c47fec0942fa0
+
+//
+google.com, pub-7738250541132748, DIRECT, f08c47fec0942fa0
