@@ -30,3 +30,9 @@ rubiconproject.com, 17608, RESELLER, 0bfd66d529a55807
 improvedigital.com, 2276, RESELLER
 outbrain.com,002d7f7ba0bd74452f2b155d0dfb5cd6c8,RESELLER
 adingo.jp, 30932, RESELLER
+
+//
+google.com, pub-8327928897197923, RESELLER, f08c47fec0942fa0
+google.com, pub-4262827307746270, RESELLER, f08c47fec0942fa0
+google.com, pub-1735744167578327, RESELLER, f08c47fec0942fa0
+google.com, pub-5739535157675470, RESELLER, f08c47fec0942fa0
