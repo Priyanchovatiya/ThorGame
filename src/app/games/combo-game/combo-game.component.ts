@@ -37,6 +37,11 @@ export class ComboGameComponent implements OnInit {
   constructor(private router: Router ,private route: ActivatedRoute,  private idService: IdService, private dataService: CardsService, private sanitizer: DomSanitizer, private scrollService: ScrollService) { }
 
   ngOnInit(): void {
+    
+    var url = this.router.url;
+    const gameName = url.split('/')[2];
+    // console.log('in combo compo', this?.gameId, url, gameName)
+    this.idService.setName(gameName);
 
     this.gameId = this.idService.getName();
     this.idService.setDash(false)
@@ -54,7 +59,7 @@ export class ComboGameComponent implements OnInit {
 
   loadGameDetails(id: string) {
     this.dataService.getData1().subscribe((response) => {
-      this.id = this.gameId - 1;
+      // this.id = this.gameId - 1;
 
       this.data = response;
       // console.log("response", this.data);
@@ -67,11 +72,11 @@ export class ComboGameComponent implements OnInit {
         if(response[i].id == id){
           // console.log(response[i].id);
           this.singleData = response[i];
-          this.gameId = id;
+          // this.gameId = id;
           // console.log("dsdsd", this.singleData);
           
           this.tags = this.singleData.tags;
-          this.getSafeUrl(this.gameId);
+          // this.getSafeUrl(this.gameId);
           
         }
       }

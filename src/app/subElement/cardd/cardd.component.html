@@ -1,24 +1,25 @@
-
 <div *ngIf="loading">
-    <app-loading ></app-loading>
-  </div>
+    <app-loading></app-loading>
+</div>
 
 
-<div  *ngIf="!loading" class="first" >
+<div *ngIf="!loading" class="first">
 
     <div class="grid grid-cols-2 md:grid-cols-6 gap-y-3 gap-x-3">
         <div *ngFor="let item of data">
             <article class=" card">
-                <div class="subclass">        
-                    <a (click)="onGameClick(item.id)" routerLinkActive="activebutton" [routerLinkActiveOptions]="{exact: true}" ariaCurrentWhenActive="page">
+                <div class="subclass">
+                    <!-- <a (click)="onGameClick(item.id)" routerLinkActive="activebutton" [routerLinkActiveOptions]="{exact: true}" ariaCurrentWhenActive="page"> -->
+                    <a [routerLink]="['/gamesPage', item.id]" routerLinkActive="activebutton"
+                        [routerLinkActiveOptions]="{exact: true}" ariaCurrentWhenActive="page">
                         <img class="h-auto max-w-full rounded-lg c-img" src="combo/logos/{{item.id}}.png" alt="">
-                                               
+
                         <h3 class="card__title"> {{item.name}}</h3>
-                        
+
                     </a>
                 </div>
-            </article>                
-        </div>        
+            </article>
+        </div>
     </div>
 </div>
 
