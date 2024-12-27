@@ -38,10 +38,12 @@ export class ComboGameComponent implements OnInit {
 
   ngOnInit(): void {
     
-    var url = this.router.url;
-    const gameName = url.split('/')[2];
-    // console.log('in combo compo', this?.gameId, url, gameName)
-    this.idService.setName(gameName);
+    this.route.url.subscribe((url) => {
+      // console.log('in main subscribe >> ', url, url[1].path);
+      const gameName = url[1].path;
+      this.idService.setName(gameName);
+      this.loadGameDetails(gameName);
+      });
 
     this.gameId = this.idService.getName();
     this.idService.setDash(false)
